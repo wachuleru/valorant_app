@@ -1,14 +1,16 @@
 import React from 'react'
 import Titulo from './Titulo';
 
-export default class Item extends React.Component {
-    render(){
-        return (
-            <div>
-                <Titulo texto={this.props.valor}/>
+
+
+function Item(props) {
+    return (
+        <div>
+                <Titulo texto={props.valor}/>
             </div>
-        )
-    
-    }
+    )
 }
+
+export default Item
+
 
