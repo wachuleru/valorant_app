@@ -7,7 +7,12 @@ function ItemListContainer() {
     const [count, setCount]=useState(0);
     const agentes= ['Sova','Sage','Skye','KillJoy','Raze'];
     const items=agentes.map(t  =>(
-        <div className="container" key={"divContainer"+t}>
+        
+        <Item valor={t} key={t} />
+               
+    ));
+
+   /*  <div className="container" key={"divContainer"+t}>
             <div className="row" key={"divrow"+t}>
                 <div className="col" key={"divcol1"+t}>
                     <button className="btn btn-danger" key={"buttonSub"+t} onClick={()=> setCount(count-1)}>-</button>
@@ -25,8 +30,7 @@ function ItemListContainer() {
             
             
             
-        </div> 
-    ));
+        </div>  */
     return (
         <div>
             <Titulo texto="Lista de agentes"/>
