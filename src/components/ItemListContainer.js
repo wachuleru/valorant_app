@@ -5,10 +5,10 @@ import Titulo from './Titulo';
 
 function ItemListContainer() {
     const [count, setCount]=useState(0);
-    const agentes= ['Sova','Sage','Skye','KillJoy','Raze'];
+    const agentes= [{name:'Sova',stock:10},{name:'Sage',stock:10},{name:'Skye',stock:10},{name:'KillJoy',stock:10},{name:'Raze',stock:10}];
     const items=agentes.map(t  =>(
         
-        <Item valor={t} key={t} />
+        <Item valor={t} key={t.name} />
                
     ));
 
