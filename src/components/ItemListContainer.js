@@ -1,40 +1,44 @@
-import React, {Component, useState} from 'react'
+import React, {Component, useState, useEffect} from 'react'
 import {render} from 'react-dom'
-import Item from './Item';
+
+import { ItemList } from './ItemList';
 import Titulo from './Titulo';
 
 function ItemListContainer() {
     const [count, setCount]=useState(0);
-    const agentes= [{name:'Sova',stock:10},{name:'Sage',stock:10},{name:'Skye',stock:10},{name:'KillJoy',stock:10},{name:'Raze',stock:10}];
-    const items=agentes.map(t  =>(
+    const [agents,setAgents]=useState([]);
+    /* const agentes= [
+        {name:'Sova',stock:10, precio:3990, img:"https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png"},
+        {name:'Sage',stock:10, precio:3990, img:"https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png"},
+        {name:'Skye',stock:10, precio:3990, img:"https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png"},
+        {name:'KillJoy',stock:10, precio:3990, img:"https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png"},
+        {name:'Raze',stock:10, precio:3990, img:"https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png"}]; */
+    const myPromise= new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            let agentsData=[{"name":"Sova","stock":10,"precio":3990,"img":"https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png"},{"name":"Sage","stock":10,"precio":3990,"img":"https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png"},{"name":"Skye","stock":10,"precio":3990,"img":"https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png"},{"name":"KillJoy","stock":10,"precio":3990,"img":"https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png"},{"name":"Raze","stock":10,"precio":3990,"img":"https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png"}];
+            resolve(agentsData);
+        }, 3000);
+    });
+
+    useEffect(() => {
+        myPromise.then(agents=>{
+            setAgents(agents)
+        },[]);
+        
+    }, [])
+    
+    /*  const items=agentes.map(t  =>(
+        
         
         <Item valor={t} key={t.name} />
                
     ));
-
-   /*  <div className="container" key={"divContainer"+t}>
-            <div className="row" key={"divrow"+t}>
-                <div className="col" key={"divcol1"+t}>
-                    <button className="btn btn-danger" key={"buttonSub"+t} onClick={()=> setCount(count-1)}>-</button>
-                </div>
-                <div className="col">
-                    <Item valor={t} key={t} />
-                </div>
-                <div className="col">
-                    <Titulo texto={count}/>
-                </div>
-                <div className="col">
-                    <button className="btn btn-success" key={"buttonAdd"+t} onClick={()=> setCount(count+1)}>+</button> 
-                </div>
-            </div>
-            
-            
-            
-        </div>  */
+*/
+  
     return (
-        <div>
+        <div className="container">
             <Titulo texto="Lista de agentes"/>
-            <ul>  {items} </ul>
+            {agents!==[] ?<ItemList agents={agents}/> : null}
         </div>
     )
 }

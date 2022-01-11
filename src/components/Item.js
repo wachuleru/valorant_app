@@ -3,7 +3,7 @@ import Titulo from './Titulo';
 
 
 
-function Item(props) {
+function Item({agent}) {
     const [count, setCount]=useState(0);
     const stock=10;
     const validarStock=()=>{
@@ -19,22 +19,32 @@ function Item(props) {
         }
     }
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <button className="btn btn-danger" key={"buttonSub"+props.valor.name} onClick={()=> validarCount()}>-</button>
-                </div>
-                <div className="col">
-                    <Titulo texto={props.valor.name}/>
-                </div><div className="col">
-                    <Titulo texto={count}/>
-                </div>
-                <div className="col">
-                    <button className="btn btn-success" key={"buttonSub"+props.valor.name} onClick={()=> validarStock()}>+</button>
+        <div className="col-md-3 mt-2">
+            <div className="card">
+                <img src={agent.img} className="card-img-top" alt="" />
+                <div className="card-body">
+                    <h5 className="card-title">{agent.name}</h5>
+                    <a  className="btn btn-primary">Mas Detalles</a>
                 </div>
             </div>
-            
+
+            {/* <div className="col">
+                <button className="btn btn-danger" key={"buttonSub"+agent.name} onClick={()=> validarCount()}>-</button>
+            </div>
+            <div className="col">
+                <Titulo texto={agent.name}/>
+            </div>
+            <div className="col">
+                <Titulo texto={"Precio: "+agent.precio}/>
+            </div>
+            <div className="col">
+                <Titulo texto={"Agregados a carrito: "+ count}/>
+            </div>
+            <div className="col">
+                <button className="btn btn-success" key={"buttonSub"+agent.name} onClick={()=> validarStock()}>+</button>
+            </div> */}
         </div>
+      
     )
 }
 

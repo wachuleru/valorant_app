@@ -1,0 +1,1164 @@
+[
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "Breach",
+        "description": "El sueco biónico Breach lanza poderosas ráfagas cinéticas para abrirse paso a la fuerza a través del territorio enemigo. El daño y la disrupción que inflige garantizan que ninguna pelea sea justa.",
+        "developerName": "Breach",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Iniciador",
+            "description": "Los iniciadores despejan el camino, ayudan a su equipo a ingresar a las zonas en disputa y repelen a los defensores.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Fulgor",
+                "description": "EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de la pared. La carga detonará y cegará a todos los jugadores que la vean.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Falla Sísmica",
+                "description": "EQUIPA un rayo sísmico y MANTÉN EL DISPARO para aumentar la distancia. SUELTA para iniciar el temblor y aturdir a todos los jugadores que estén en su alcance.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Réplica",
+                "description": "EQUIPA una carga de fusión y DISPARA para lanzar una ráfaga de acción lenta a través de la pared. La ráfaga infligirá mucho daño a todos los que estén en su alcance.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Trueno Rodante",
+                "description": "EQUIPA una carga sísmica y DISPARA para enviar un temblor en cascada por una gran zona cónica. El temblor aturde y lanza por el aire a todos los que impacte.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 2.401167,
+            "maxDuration": 2.401167,
+            "mediaList": [
+                {
+                    "id": 1415641653,
+                    "wwise": "https://media.valorant-api.com/sounds/1415641653.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1415641653.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "Raze",
+        "description": "Raze llega de Brasil con su explosiva personalidad y sus grandes armas. Gracias a su contundente estilo de juego, es muy buena para separar a los enemigos atrincherados y para despejar espacios estrechos con una gran cantidad de explosiones.",
+        "developerName": "Clay",
+        "characterTags": [
+            "Especialista en daño de área"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelista",
+            "description": "Los duelistas son asesinos autosuficientes cuya destreza y habilidades les permiten apoyar a su equipo al conseguir muchos asesinatos y participar en los combates.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Paquete Explosivo",
+                "description": "Lanza AL INSTANTE un paquete explosivo que se adhiere a las superficies. VUELVE A USAR la habilidad después de desplegar el paquete para detonarlo, lo que dañará y desplazará todo a su alcance.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Carcasas de Pintura",
+                "description": "EQUIPA una granada de racimo y DISPARA para lanzarla. La granada infligirá daño por su cuenta y creará submuniciones que también infligirán daño a cualquiera que se encuentre dentro de su alcance.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bumbot",
+                "description": "EQUIPA un Bumbot y DISPARA para desplegarlo. El bot se moverá en línea recta por el suelo y rebotará en los muros. El Bumbot marcará a cualquier enemigo que se encuentre en un cono frente a él y lo perseguirá. Si lo alcanza, infligirá mucho daño.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tumbadivas",
+                "description": "EQUIPA un lanzamisiles. DISPARA para lanzar un misil que inflige daño de área masivo al entrar en contacto con algo.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 1.731187,
+            "maxDuration": 1.731187,
+            "mediaList": [
+                {
+                    "id": 897685915,
+                    "wwise": "https://media.valorant-api.com/sounds/897685915.wem",
+                    "wave": "https://media.valorant-api.com/sounds/897685915.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "Chamber",
+        "description": "Vestido y armado para matar, el diseñador de armas francés, Chamber, rechaza toda ofensiva con precisión letal. Aprovecha su arsenal personalizado para mantener a los enemigos a raya y eliminarlos desde lejos. Siempre cuenta con la contingencia perfecta para cada plan.",
+        "developerName": "Deadeye",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Centinela",
+            "description": "Los centinelas son expertos en defensa que pueden asegurar cualquier zona y vigilar los costados, tanto en las rondas de defensa como de ataque.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Rendezvous",
+                "description": "DESPLIEGA dos anclajes de teletransportación. Mientras estés en el suelo y dentro de su zona de alcance, podrás REACTIVAR la habilidad para teletransportarte rápidamente al otro anclaje. Puedes recogerlos para VOLVER A COLOCARLOS en otro lugar.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Marca Registrada",
+                "description": "COLOCA una trampa que escanea los alrededores buscando enemigos. Cuando un enemigo visible entra en contacto, esta comienza una cuenta regresiva que, al terminar, desestabiliza el terreno a su alrededor y crea un área que permanece en la zona y ralentiza a los enemigos dentro de ella.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Cazador de Cabezas",
+                "description": "ACTÍVALA para equipar una pistola pesada. Usa DISPARO SECUNDARIO con la pistola equipada para usar la mira.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tour de Force",
+                "description": "ACTIVA para invocar un poderoso rifle de francotirador personalizado que mata a cualquier enemigo al que impacte directamente. Matar a un enemigo crea un área que permanece en la zona y ralentiza a los jugadores que queden dentro de ella.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 2.251417,
+            "maxDuration": 2.251417,
+            "mediaList": [
+                {
+                    "id": 410139801,
+                    "wwise": "https://media.valorant-api.com/sounds/410139801.wem",
+                    "wave": "https://media.valorant-api.com/sounds/410139801.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O es una máquina de guerra construida para un único propósito: neutralizar radiantes. Su poder para suprimir las habilidades del enemigo anula la capacidad de sus oponentes para contraatacar, lo que les asegura a él y a sus aliados la ventaja definitiva.",
+        "developerName": "Grenadier",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Iniciador",
+            "description": "Los iniciadores despejan el camino, ayudan a su equipo a ingresar a las zonas en disputa y repelen a los defensores.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "FRAG/mentación",
+                "description": "EQUIPA un fragmento explosivo. DISPARA para lanzarlo. El fragmento se pegará al piso y explotará varias veces, lo que inflige daño letal en el centro con cada explosión.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Memoria/FLASH",
+                "description": "EQUIPA una granada cegadora. DISPARA para lanzarla. La granada cegadora explotará luego de un corto tiempo cegando a cualquiera que se encuentre en su línea de visión.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Punto/CERO",
+                "description": "EQUIPA una cuchilla supresora. DISPARA para lanzarla. La cuchilla se adhiere a la primera superficie que toca para activarse y suprimir a cualquiera dentro del radio de explosión.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "NULL/cmd",
+                "description": "Se sobrecarga INSTANTÁNEAMENTE con energía polarizada de radianita que emana de KAY/O en un radio masivo. Los enemigos impactados por las ondas de energía quedan suprimidos durante un breve periodo. Mientras está sobrecargado, KAY/O obtiene Potenciador de combate y se puede volver a estabilizar si lo derriban.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 0.842687,
+            "maxDuration": 0.842687,
+            "mediaList": [
+                {
+                    "id": 188432415,
+                    "wwise": "https://media.valorant-api.com/sounds/188432415.wem",
+                    "wave": "https://media.valorant-api.com/sounds/188432415.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "Skye",
+        "description": "Procedentes de Australia, Skye y su manada de bestias se abren paso por territorio hostil. Con sus creaciones que obstaculizan al enemigo y su poder para sanar a los demás, los equipos serán más fuertes y seguros al lado de Skye.",
+        "developerName": "Guide",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Iniciador",
+            "description": "Los iniciadores despejan el camino, ayudan a su equipo a ingresar a las zonas en disputa y repelen a los defensores.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Forjacaminos",
+                "description": "TE EQUIPAS un artefacto de tigre de Tasmania. DISPARA para enviar y tomar el control del depredador. Mientras lo controlas, DISPARA para saltar hacia adelante, lo que provoca una explosión contusiva e inflige daño a los enemigos alcanzados directamente.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Luz Guía",
+                "description": "TE EQUIPAS un artefacto de halcón. DISPARA para enviarlo hacia adelante. MANTÉN PRESIONADO EL DISPARO para guiar al halcón en la dirección de tu retícula. REUTILÍZALA mientras el halcón está en vuelo para transformarlo en un destello.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Regeneración",
+                "description": "TE EQUIPAS un artefacto de curación. MANTÉN PRESIONADO EL DISPARO para canalizar, lo que cura aliados dentro del alcance y campo visual. Se puede reutilizar hasta que se agote la energía de curación. Skye no puede curarse a sí misma.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Buscadores",
+                "description": "TE EQUIPAS un artefacto de buscador. DISPARA para enviar a tres buscadores para rastrear a los tres enemigos más cercanos. Si un buscador alcanza su objetivo, lo ofusca.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 1.712062,
+            "maxDuration": 1.712062,
+            "mediaList": [
+                {
+                    "id": 1989664643,
+                    "wwise": "https://media.valorant-api.com/sounds/1989664643.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1989664643.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "Cypher",
+        "description": "Cypher, el agente de inteligencia marroquí, es un sistema de vigilancia de un solo hombre que puede monitorear todos los movimientos de sus enemigos. No hay secreto que no descubra ni maniobra que no detecte. Cypher siempre está vigilando.",
+        "developerName": "Gumshoe",
+        "characterTags": [
+            "Detección",
+            "Inmovilización defensiva"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Centinela",
+            "description": "Los centinelas son expertos en defensa que pueden asegurar cualquier zona y vigilar los costados, tanto en las rondas de defensa como de ataque.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ciberjaula",
+                "description": "Lanza AL INSTANTE la ciberjaula frente a Cypher. ACTÍVALA para crear una zona que bloquea la visión y reproduce una señal auditiva cuando los enemigos la atraviesan.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Cámara Espía",
+                "description": "EQUIPA una cámara espía. DISPARA para colocarla en la ubicación seleccionada. VUELVE A USAR esta habilidad para tomar el control de la vista de la cámara. Mientras la controlas, DISPARA para lanzar un dardo marcador que revelará la ubicación de cualquier jugador al que impacte.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Cable Trampa",
+                "description": "EQUIPA un cable trampa. DISPARA para colocar un cable trampa destructible y camuflado en la ubicación seleccionada, que creará una línea entre ese lugar y la pared opuesta. Los jugadores enemigos que activen el cable trampa serán atados, revelados, y quedarán aturdidos tras un momento si no destruyen el dispositivo a tiempo. Puedes recogerlo y VOLVER A COLOCARLO.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Asalto Neural",
+                "description": "Apunta hacia un jugador enemigo muerto y úsalo DE INMEDIATO para revelar la ubicación de todos los jugadores enemigos con vida.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.140625,
+            "maxDuration": 3.140625,
+            "mediaList": [
+                {
+                    "id": 19383876,
+                    "wwise": "https://media.valorant-api.com/sounds/19383876.wem",
+                    "wave": "https://media.valorant-api.com/sounds/19383876.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "ded3520f-4264-bfed-162d-b080e2abccf9",
+        "displayName": "Sova",
+        "description": "Proveniente de la tundra del eterno invierno de Rusia, Sova rastrea, encuentra y elimina a sus enemigos con gran eficiencia y precisión. Su arco personalizado y sus increíbles habilidades de exploración impedirán que sus enemigos puedan esconderse de él. ",
+        "developerName": "Hunter_NPE",
+        "characterTags": [
+            "Detección",
+            "Daño de área"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/displayiconsmall.png",
+        "bustPortrait": null,
+        "fullPortrait": null,
+        "killfeedPortrait": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_NPE_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": false,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Proyectil Eléctrico",
+                "description": "EQUIPA un arco con un proyectil eléctrico y DISPARA para lanzarlo. El proyectil detonará al impactar y dañará a los jugadores cercanos. MANTÉN EL DISPARO para aumentar el alcance del proyectil. Usa el DISPARO SECUNDARIO para añadir hasta dos rebotes a su trayectoria.",
+                "displayIcon": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Proyectil Rastreador",
+                "description": "EQUIPA un arco con un proyectil rastreador y DISPARA para lanzarlo. El proyectil se activará al impactar y revelará la ubicación de los enemigos cercanos que estén dentro de su alcance. Los enemigos pueden destruir este proyectil. MANTÉN EL DISPARO para aumentar el alcance del proyectil. Usa el DISPARO SECUNDARIO para añadir hasta dos rebotes a la trayectoria de la flecha.",
+                "displayIcon": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Dron Búho",
+                "description": "EQUIPA un dron búho y DISPARA para desplegarlo y controlar su movimiento. Mientras lo controlas, DISPARA para lanzar un dardo marcador que revelará la ubicación de cualquier jugador al que impacte.",
+                "displayIcon": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Furia del Cazador",
+                "description": "EQUIPA un arco con tres ráfagas de energía de largo alcance que atraviesan las paredes. DISPARA para lanzar una ráfaga de energía frente a Sova que infligirá daño y revelará la ubicación de los enemigos impactados. Puedes VOLVER A USAR esta habilidad hasta dos veces más mientras su contador esté activo.",
+                "displayIcon": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Tirador Experto",
+                "description": "El arco personalizado de Sova puede disparar sus flechas y hacer que reboten por el terreno. Puedes cargar la potencia del arco si mantienes presionado el botón de disparo y después lanzar el proyectil al soltarlo. Presiona el botón de disparo secundario para cambiar el número de rebotes. Tus flechas pueden rebotar contra el terreno. Puedes aumentar la trayectoria del alcance del arco si mantienes presionado el clic izquierdo. Usa el clic derecho para alternar entre el número de rebotes que deseas en el terreno. Suelta el clic izquierdo para disparar la flecha.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.002438,
+            "maxDuration": 3.002438,
+            "mediaList": [
+                {
+                    "id": 1665977003,
+                    "wwise": "https://media.valorant-api.com/sounds/1665977003.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1665977003.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "Sova",
+        "description": "Proveniente de la tundra del eterno invierno de Rusia, Sova rastrea, encuentra y elimina a sus enemigos con gran eficiencia y precisión. Su arco personalizado y sus increíbles habilidades de exploración impedirán que sus enemigos puedan esconderse de él. ",
+        "developerName": "Hunter",
+        "characterTags": [
+            "Detección",
+            "Daño de área"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Iniciador",
+            "description": "Los iniciadores despejan el camino, ayudan a su equipo a ingresar a las zonas en disputa y repelen a los defensores.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Proyectil Eléctrico",
+                "description": "EQUIPA un arco con un proyectil eléctrico y DISPARA para lanzarlo. El proyectil detonará al impactar y dañará a los jugadores cercanos. MANTÉN EL DISPARO para aumentar el alcance del proyectil. Usa el DISPARO SECUNDARIO para añadir hasta dos rebotes a su trayectoria.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Proyectil Rastreador",
+                "description": "EQUIPA un arco con un proyectil rastreador y DISPARA para lanzarlo. El proyectil se activará al impactar y revelará la ubicación de los enemigos cercanos que estén dentro de su alcance. Los enemigos pueden destruir este proyectil. MANTÉN EL DISPARO para aumentar el alcance del proyectil. Usa el DISPARO SECUNDARIO para añadir hasta dos rebotes a la trayectoria de la flecha.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Dron Búho",
+                "description": "EQUIPA un dron búho y DISPARA para desplegarlo y controlar su movimiento. Mientras lo controlas, DISPARA para lanzar un dardo marcador que revelará la ubicación de cualquier jugador al que impacte.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Furia del Cazador",
+                "description": "EQUIPA un arco con tres ráfagas de energía de largo alcance que atraviesan las paredes. DISPARA para lanzar una ráfaga de energía frente a Sova que infligirá daño y revelará la ubicación de los enemigos impactados. Puedes VOLVER A USAR esta habilidad hasta dos veces más mientras su contador esté activo.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Tirador Experto",
+                "description": "El arco personalizado de Sova puede disparar sus flechas y hacer que reboten por el terreno. Puedes cargar la potencia del arco si mantienes presionado el botón de disparo y después lanzar el proyectil al soltarlo. Presiona el botón de disparo secundario para cambiar el número de rebotes. Tus flechas pueden rebotar contra el terreno. Puedes aumentar la trayectoria del alcance del arco si mantienes presionado el clic izquierdo. Usa el clic derecho para alternar entre el número de rebotes que deseas en el terreno. Suelta el clic izquierdo para disparar la flecha.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.002438,
+            "maxDuration": 3.002438,
+            "mediaList": [
+                {
+                    "id": 1665977003,
+                    "wwise": "https://media.valorant-api.com/sounds/1665977003.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1665977003.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "Killjoy",
+        "description": "Killjoy, la prodigio alemana, asegura y defiende los puntos estratégicos del campo de batalla con un arsenal de trampas, torretas y minas. Cada invención está preparada para castigar a cualquier enemigo demasiado ingenuo como para retroceder.",
+        "developerName": "Killjoy",
+        "characterTags": [
+            "Inmovilización defensiva",
+            "Daño de área"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Centinela",
+            "description": "Los centinelas son expertos en defensa que pueden asegurar cualquier zona y vigilar los costados, tanto en las rondas de defensa como de ataque.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Nanoplaga",
+                "description": "EQUIPA una granada de nanobots. DISPARA para lanzar la granada. La Nanoplaga no genera ruido después de aterrizar. ACTIVA la Nanoplaga para desplegar un mortal enjambre de nanobots.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "ALARMABOT",
+                "description": "EQUIPA un Alarmabot encubierto. DISPARA para desplegar un bot que caza a los enemigos que entren en su alcance. Después de alcanzar a su objetivo, el bot explota y aplica Vulnerable a los enemigos en el área. MANTÉN PRESIONADO EQUIPAR para recuperar un bot desplegado.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "TORRETA",
+                "description": "EQUIPA una torreta. DISPARA para desplegar una torreta que les dispara a los enemigos cercanos en un cono de 180 grados. MANTÉN PRESIONADO EQUIPAR para recuperar una torreta desplegada.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Contención",
+                "description": "EQUIPA un dispositivo de inmovilización. DISPARA para desplegar el dispositivo. Tras cargar, el dispositivo detiene a todos los enemigos dentro de su radio. Los enemigos pueden destruir el dispositivo.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 2.260062,
+            "maxDuration": 2.260062,
+            "mediaList": [
+                {
+                    "id": 178250180,
+                    "wwise": "https://media.valorant-api.com/sounds/178250180.wem",
+                    "wave": "https://media.valorant-api.com/sounds/178250180.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "Viper",
+        "description": "Viper, la química estadounidense, despliega varios artefactos químicos venenosos para controlar el campo de batalla y afectar la visión de los enemigos. Si las toxinas no asesinan a su presa, sin duda lo harán sus juegos mentales.",
+        "developerName": "Pandemic",
+        "characterTags": [
+            "Especialista en control de visión"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controlador",
+            "description": "Los controladores son expertos en dividir el terreno peligroso para que su equipo consiga la victoria.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Nube Venenosa",
+                "description": "EQUIPA un emisor de gas y DISPARA para lanzarlo. Este permanecerá ahí durante toda la ronda. VUELVE A USAR la habilidad para crear una nube de gas tóxica que usa combustible. Puedes VOLVER A USAR esta habilidad varias veces y puedes recuperarla para VOLVER A DESPLEGARLA.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Cortina Tóxica",
+                "description": "EQUIPA un lanzador de gas y DISPARA para desplegar una larga hilera de emisores de gas. VUELVE A USAR la habilidad para crear un muro de gas tóxico que usa combustible. Puedes VOLVER A USAR esta habilidad varias veces.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Mordedura",
+                "description": "EQUIPA un lanzador de químicos. DISPARA para lanzar un contenedor que se rompe al impactar contra el suelo y crea una zona química que permanece en el campo, la cual inflige daño y aplica Vulnerable.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Fosa Vipérea",
+                "description": "EQUIPA un rociador y DISPARA para lanzar una nube de químicos en todas direcciones alrededor de Viper, lo cual crea una gran nube que reduce el rango de visión de los jugadores y la vida máxima de los enemigos que estén dentro de ella. MANTÉN PRESIONADA la tecla de la habilidad para dispersar la nube manualmente.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Toxicidad",
+                "description": "Generas y restauras la toxina que usas para tus habilidades de forma gradual. Los enemigos que crucen la Nube Venenosa, Cortina Tóxica o Fosa Vipérea de Viper, quedarán afectados de forma instantánea con al menos 50 de decrecimiento. El nivel de decrecimiento aumenta mientras más tiempo permanezcan en contacto con estas habilidades.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 2.858667,
+            "maxDuration": 2.858667,
+            "mediaList": [
+                {
+                    "id": 2077684968,
+                    "wwise": "https://media.valorant-api.com/sounds/2077684968.wem",
+                    "wave": "https://media.valorant-api.com/sounds/2077684968.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "Phoenix",
+        "description": "Phoenix proviene del Reino Unido. El poder estelar de Phoenix se manifiesta en su estilo de combate al incendiar el campo de batalla con sus granadas aturdidoras y cegadoras. Sin importar si cuenta con apoyo o no, participará en la batalla bajo sus propios términos.",
+        "developerName": "Phoenix",
+        "characterTags": [
+            "Flexibilidad",
+            "Sustento"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelista",
+            "description": "Los duelistas son asesinos autosuficientes cuya destreza y habilidades les permiten apoyar a su equipo al conseguir muchos asesinatos y participar en los combates.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Muro Abrasador",
+                "description": "EQUIPA un muro de fuego y DISPARA para crear una hilera de llamas que avanza, creando un muro que bloquea la visión y daña a los jugadores que lo atraviesan. MANTÉN EL DISPARO para mover el muro en la dirección de tu retícula.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Destello en Curva",
+                "description": "EQUIPA un orbe cegador que sigue una trayectoria curva y detona poco después de ser lanzado. DISPARA para curvar la trayectoria del orbe cegador hacia la izquierda. Este detonará y cegará a cualquier jugador que lo vea. Usa el DISPARO SECUNDARIO para curvar su trayectoria hacia la derecha.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Manitas Calientes",
+                "description": "EQUIPA una bola de fuego y DISPARA para lanzarla. Esta explotará tras cierto tiempo o al impactar el suelo, lo que creará una zona de fuego que permanecerá en el campo y dañará a los enemigos.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Va de Fuego",
+                "description": "AL INSTANTE coloca un marcador en la ubicación de Phoenix. Cuando esta habilidad esté activa, morir o dejar que el temporizador expire hará que la habilidad se desactive y regresará a Phoenix a esa ubicación con toda su vida.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Me Llamas",
+                "description": "Cura a Phoenix DE FORMA PASIVA en lugar de recibir daño cuando esté sobre su propio fuego.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 1.63,
+            "maxDuration": 1.63,
+            "mediaList": [
+                {
+                    "id": 1789284107,
+                    "wwise": "https://media.valorant-api.com/sounds/1789284107.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1789284107.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "Astra",
+        "description": "La agente ghanesa Astra canaliza las energías del cosmos para remodelar los campos de batalla a su antojo. Con pleno dominio de su forma astral y un talento para una profunda previsión estratégica, siempre está eones por delante del próximo movimiento de su enemigo.",
+        "developerName": "Rift",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controlador",
+            "description": "Los controladores son expertos en dividir el terreno peligroso para que su equipo consiga la victoria.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Pulso Estelar",
+                "description": "Coloca estrellas en Modo Astral (tecla de definitiva).\n\nACTIVA una estrella para detonar un Pulso Estelar. El Pulso Estelar carga brevemente y luego ataca, lo que aturde a todos los jugadores en el área.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Nebulosa / Disipar",
+                "description": "Coloca estrellas en Modo Astral (tecla de definitiva). \n\nACTIVA una estrella para transformarla en una Nebulosa (humo).\n\nUSA una estrella para Disiparla, lo que devuelve la estrella para colocarla en una nueva ubicación después de un momento.\n\nDisipar forma una Nebulosa falsa brevemente en la ubicación de la estrella antes de regresar.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Pozo Gravitacional",
+                "description": "Coloca estrellas en Modo Astral (tecla de definitiva).\n\nACTIVA una estrella para formar un Pozo Gravitacional. Los jugadores en el área son atraídos hacia el centro antes de que estalle, lo que causa que todos los jugadores que aún siguen atrapados se vuelvan vulnerables.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Modo Astral / División \nCósmica",
+                "description": "ACTIVA para entrar en Modo Astral donde puedes colocar estrellas con tu DISPARO PRINCIPAL. Puedes reactivar las estrellas más tarde, lo que las transforma en un Pulso Estelar, Nebulosa o Pozo Gravitacional.\n\nCuando División Cósmica esté cargada, usa el DISPARO SECUNDARIO en Modo Astral para apuntarla, luego el DISPARO PRINCIPAL para elegir dos ubicaciones. Una División Cósmica infinita conecta los dos puntos que elegiste. División Cósmica bloquea las balas y amortigua considerablemente el audio.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Modo Astral",
+                "description": "ACTIVA la definitiva para entrar en Modo Astral y el DISPARO PRINCIPAL para colocar estrellas. Apunta a las estrellas con tu Pulso Estelar, Nebulosa o Pozo Gravitacional para usar esas habilidades.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 4.2415,
+            "maxDuration": 4.2415,
+            "mediaList": [
+                {
+                    "id": 629440372,
+                    "wwise": "https://media.valorant-api.com/sounds/629440372.wem",
+                    "wave": "https://media.valorant-api.com/sounds/629440372.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "Brimstone",
+        "description": "Proveniente de Estados Unidos, Brimstone proporciona una constante ventaja para su equipo con su arsenal orbital. Su habilidad otorga información de forma precisa y a distancia, lo que lo hace un comandante sin igual en el campo.  ",
+        "developerName": "Sarge",
+        "characterTags": [
+            "Control de visión",
+            "Daño de área"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controlador",
+            "description": "Los controladores son expertos en dividir el terreno peligroso para que su equipo consiga la victoria.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Baliza Potenciadora",
+                "description": "Lanza AL INSTANTE una baliza potenciadora frente a Brimstone. Al caer, la baliza potenciadora creará un campo que aumentará la velocidad de disparo de los jugadores.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "La Incendiaria",
+                "description": "EQUIPA un lanzagranadas incendiario y DISPARA para lanzar una granada que explota al quedar en el suelo. Esta crea una zona de fuego que permanece en el campo y daña a los enemigos que estén dentro de ella.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Humo Celestial",
+                "description": "EQUIPA un mapa táctico y DISPARA para marcar las ubicaciones en las que caerán las nubes de humo de Brimstone. Usa el DISPARO SECUNDARIO para confirmar y lanzar nubes de humo duraderas que bloquearán la visión en la zona seleccionada.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Ataque Orbital",
+                "description": "EQUIPA un mapa táctico y DISPARA para lanzar un ataque orbital prolongado de un láser en la ubicación seleccionada. Este infligirá mucho daño con el tiempo a los jugadores que estén en la zona.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 4.071688,
+            "maxDuration": 4.071688,
+            "mediaList": [
+                {
+                    "id": 1503647046,
+                    "wwise": "https://media.valorant-api.com/sounds/1503647046.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1503647046.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "Yoru",
+        "description": "El nativo de Japón, Yoru, abre agujeros a través de la realidad para infiltrarse en las líneas enemigas sin ser visto. Con engaños y agresividad por igual, sorprende a sus objetivos antes de que sepan dónde buscarlo.",
+        "developerName": "Stealth",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelista",
+            "description": "Los duelistas son asesinos autosuficientes cuya destreza y habilidades les permiten apoyar a su equipo al conseguir muchos asesinatos y participar en los combates.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "ENGAÑO",
+                "description": "EQUIPA un eco que imita el sonido de pisadas cuando se activa. DISPARA para activarlo y enviar el eco hacia adelante. Usa DISPARO SECUNDARIO para colocar un eco en el lugar. USA el eco inactivo para enviarlo hacia adelante.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "PUNTO CIEGO",
+                "description": "EQUÍPALO para arrancar un fragmento dimensional inestable de la realidad. DISPARA para lanzar el fragmento, lo que activa un destello que se disipa al impactar con una superficie sólida.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "INFILTRACIÓN",
+                "description": "EQUÍPALO para preparar un vínculo dimensional. DISPARA para lanzar el vínculo. Usa DISPARO SECUNDARIO para colocar un vínculo en el lugar. ACTÍVALO para teletransportarte a la ubicación del vínculo.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "CAMBIO DIMENSIONAL",
+                "description": "EQUIPA una máscara para ver entre dimensiones. DISPARA para entrar a la dimensión de Yoru, donde los enemigos no pueden verte ni afectarte.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.825875,
+            "maxDuration": 3.825875,
+            "mediaList": [
+                {
+                    "id": 80947822,
+                    "wwise": "https://media.valorant-api.com/sounds/80947822.wem",
+                    "wave": "https://media.valorant-api.com/sounds/80947822.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "Sage",
+        "description": "Sage, el bastión de China, proporciona seguridad para sí misma y para su equipo en cualquier lugar. Gracias a su capacidad de revivir a sus compañeros caídos y evitar ataques poderosos, proporciona un lugar de protección en medio del caótico campo de batalla.",
+        "developerName": "Thorne",
+        "characterTags": [
+            "Recuperación",
+            "Impedimento"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Centinela",
+            "description": "Los centinelas son expertos en defensa que pueden asegurar cualquier zona y vigilar los costados, tanto en las rondas de defensa como de ataque.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Orbe Ralentizador",
+                "description": "EQUIPA un orbe de ralentización y DISPARA para lanzarlo. Este detonará al caer al suelo y creará un campo que permanecerá en la zona y ralentizará a los jugadores que estén dentro de él.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Orbe Curativo",
+                "description": "EQUIPA un orbe curativo y DISPARA tras apuntar a un aliado herido para curarlo con el tiempo. Usa el DISPARO SECUNDARIO cuando Sage esté herida para curarla con el tiempo.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Orbe de Barrera",
+                "description": "EQUIPA un orbe de barrera. DISPARA para colocar un muro que se fortifica después de unos segundos. Usa el DISPARO SECUNDARIO para rotarla antes de crearla.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Resurrección",
+                "description": "EQUIPA una habilidad de resurrección y DISPARA mientras apuntas hacia un aliado muerto para comenzar a resucitarlo. Tras un breve periodo de canalización, el aliado volverá a la vida con su salud intacta.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.119708,
+            "maxDuration": 3.119708,
+            "mediaList": [
+                {
+                    "id": 534629797,
+                    "wwise": "https://media.valorant-api.com/sounds/534629797.wem",
+                    "wave": "https://media.valorant-api.com/sounds/534629797.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "Reyna",
+        "description": "Desde el corazón de México llega Reyna para dominar los duelos uno contra uno. Cada asesinato que realiza aumenta su poder. Su letalidad solo está limitada por tu destreza al usarla, por lo que su eficacia dependerá mucho de su desempeño.",
+        "developerName": "Vampire",
+        "characterTags": [
+            "Evasión",
+            "Sustento"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelista",
+            "description": "Los duelistas son asesinos autosuficientes cuya destreza y habilidades les permiten apoyar a su equipo al conseguir muchos asesinatos y participar en los combates.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Devorar",
+                "description": "Cosecha de Almas: los enemigos eliminados por Reyna o que hayan muerto 3 seg después de recibir daño de Reyna, dejan orbes de almas que duran 3 seg.\n\nDevorar: AL INSTANTE consume un orbe de almas cercano y cura rápidamente durante un periodo breve. La Vida superior a 100 que se obtenga mediante esta habilidad se deteriora con el tiempo. Si LA EMPERATRIZ está activa, esta habilidad se lanzará de forma automática y no consumirá el orbe de almas.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Desechar",
+                "description": "AL INSTANTE consume un orbe de almas cercano para volverse intangible durante un tiempo breve. También se vuelve invisible si LA EMPERATRIZ está activa.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "La Mirada",
+                "description": "EQUIPA un ojo destructible y etéreo. ACTÍVALO para lanzarlo a una distancia corta y todos los enemigos que lo vean se ofuscarán.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "La Emperatriz",
+                "description": "Entra al INSTANTE en un frenesí, lo que aumenta considerablemente la velocidad de disparo, de equipamiento y de recarga. Recibe cargas infinitas de la habilidad Cosecha de Almas. Cuando Reyna elimina a un enemigo, o este muere 3 seg después de recibir daño de Reyna, se restablece la duración.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 3.550396,
+            "maxDuration": 3.550396,
+            "mediaList": [
+                {
+                    "id": 1233604067,
+                    "wwise": "https://media.valorant-api.com/sounds/1233604067.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1233604067.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "Omen",
+        "description": "Un espectro de la memoria, Omen caza entre las sombras, ciega a los enemigos, se transporta a través del campo de batalla y deja que la paranoia los invada mientras intentan descubrir dónde atacará.",
+        "developerName": "Wraith",
+        "characterTags": [
+            "Movilidad",
+            "Control de visión"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controlador",
+            "description": "Los controladores son expertos en dividir el terreno peligroso para que su equipo consiga la victoria.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Paranoia",
+                "description": "EQUIPA un orbe cegador. DISPÁRALO para reducir el alcance de visión de todos los jugadores a los que alcance y cegarlos durante un breve periodo. Este proyectil puede atravesar paredes.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Manto Oscuro",
+                "description": "EQUIPA un orbe sombrío y entra a un mundo paralelo para colocarlo y apuntarlo. PRESIONA la tecla de habilidad para lanzarlo hacia la ubicación marcada, creando una esfera de sombras duradera que bloquea visión. MANTÉN EL DISPARO mientras apuntas para alejar el marcador. MANTÉN EL DISPARO SECUNDARIO mientras apuntas para acercar el marcador. PRESIONA RECARGAR para alternar la vista de disparo.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Paso Encubierto",
+                "description": "EQUIPA la habilidad Paso Encubierto y mira su indicador de alcance. DISPARA para comenzar una breve canalización y luego transpórtate hacia la ubicación marcada.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Desde las Sombras",
+                "description": "EQUIPA un mapa táctico. DISPARA para empezar a transportarte hacia la ubicación seleccionada. Mientras te transportas, Omen aparecerá como una sombra que podrá ser destruida por los enemigos para cancelar su transportación, o PRESIONA EQUIPAR para que Omen cancele su transportación.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 4.232208,
+            "maxDuration": 4.232208,
+            "mediaList": [
+                {
+                    "id": 1503000450,
+                    "wwise": "https://media.valorant-api.com/sounds/1503000450.wem",
+                    "wave": "https://media.valorant-api.com/sounds/1503000450.wav"
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "Jett",
+        "description": "Jett viene directamente de Corea del Sur. Su ágil y evasivo estilo de pelea le permite enfrentarse a riesgos que otros no pueden. Es imparable en todos los enfrentamientos y acaba con sus enemigos antes de que sepan qué los atacó.",
+        "developerName": "Wushu",
+        "characterTags": [
+            "Evasión",
+            "Movilidad"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayiconsmall.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/bustportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelista",
+            "description": "Los duelistas son asesinos autosuficientes cuya destreza y habilidades les permiten apoyar a su equipo al conseguir muchos asesinatos y participar en los combates.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ráfaga Ascendente",
+                "description": "Propulsa a Jett AL INSTANTE hacia el aire.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Impulso Ciclón",
+                "description": "Propulsa a Jett AL INSTANTE hacia la dirección a la que se dirige. Si no se está moviendo, se propulsará hacia adelante.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Nube Explosiva",
+                "description": "Lanza un proyectil AL INSTANTE que se convierte en una nube que bloquea la visión al impactar con alguna superficie. MANTÉN PRESIONADA la tecla de la habilidad para cambiar la trayectoria del humo hacia donde apuntes.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tormenta de Cuchillas",
+                "description": "EQUIPA un conjunto de cuchillos arrojadizos de gran precisión. DISPARA para lanzar un cuchillo y recarga los cuchillos al asesinar a un oponente. Usa el DISPARO SECUNDARIO para lanzar todos los cuchillos restantes, pero no se recargan al matar a un oponente.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Viraje",
+                "description": "Puedes planear en el aire si mantienes presionado el botón de salto mientras caes.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": {
+            "minDuration": 1.229521,
+            "maxDuration": 1.229521,
+            "mediaList": [
+                {
+                    "id": 203878701,
+                    "wwise": "https://media.valorant-api.com/sounds/203878701.wem",
+                    "wave": "https://media.valorant-api.com/sounds/203878701.wav"
+                }
+            ]
+        }
+    }
+]
