@@ -6,8 +6,8 @@ export function ItemList({agents}) {
         <div className="row">
             {
                 agents.map(agent =>{
-                    console.log(agent.name);
-                    return <Item agent={agent} key={agent.name} />
+                    console.log(agent.displayName);
+                    return <Item agent={agent} key={agent.displayName} />
                 })
             }
         </div>

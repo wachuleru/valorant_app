@@ -1,7 +1,4 @@
 import React ,{ useState}from 'react'
-import Titulo from './Titulo';
-
-
 
 function Item({agent}) {
     const [count, setCount]=useState(0);
@@ -18,12 +15,18 @@ function Item({agent}) {
             setCount(count-1);
         }
     }
+    let fondo="backgroundImage: url("+ agent.background +")";
     return (
+        
         <div className="col-md-3 mt-2">
-            <div className="card">
-                <img src={agent.img} className="card-img-top" alt="" />
+            <div className="card" style={{ backgroundImage: `url(${agent.background})`, backgroundPosition:'center center', backgroundSize: 'cover' }}>
+                <div className='card-header bg-dark text-danger'>
+                    {agent.displayName}
+                </div>
+                <img src={agent.fullPortrait} className="card-img-top" alt="" />
+                
                 <div className="card-body">
-                    <h5 className="card-title">{agent.name}</h5>
+                    
                     <a  className="btn btn-primary">Mas Detalles</a>
                 </div>
             </div>
