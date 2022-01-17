@@ -22,7 +22,10 @@ function App() {
           <Route  path="/cart">
             <CartPage />
           </Route>
-          <Route  path="/product/:id">
+          <Route  path="/category/:idCategory">
+            <HomePage />
+          </Route>
+          <Route  path="/item/:id">
             <ProductDetailPage/>
           </Route>
 

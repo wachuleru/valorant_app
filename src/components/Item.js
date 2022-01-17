@@ -28,7 +28,7 @@ function Item({agent}) {
                 
                 <div className="card-body">
                     
-                    <Link className="btn btn-primary" to={`/product/${agent.uuid}`}>Mas Detalles</Link>
+                    <Link className="btn btn-primary" to={`/item/${agent.uuid}`}>Mas Detalles</Link>
                 </div>
             </div>
 
