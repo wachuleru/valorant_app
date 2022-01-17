@@ -1,5 +1,6 @@
 import React ,{ useState}from 'react'
 
+import { Link } from 'react-router-dom';
 function Item({agent}) {
     const [count, setCount]=useState(0);
     const stock=10;
@@ -27,7 +28,7 @@ function Item({agent}) {
                 
                 <div className="card-body">
                     
-                    <a  className="btn btn-primary">Mas Detalles</a>
+                    <Link className="btn btn-primary" to={`/product/${agent.uuid}`}>Mas Detalles</Link>
                 </div>
             </div>
 
