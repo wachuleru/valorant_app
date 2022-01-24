@@ -1,23 +1,10 @@
-import React ,{ useState}from 'react'
-
+import React ,{ useContext, useState}from 'react'
 import { Link } from 'react-router-dom';
 import ItemCount from './ItemCount';
 function Item({agent}) {
-    const [count, setCount]=useState(0);
-    const stock=10;
-    const validarStock=()=>{
-        if(count <stock){
-            setCount(count+1);
-        }
-        
-    }
-
-    const validarCount=()=>{
-        if(count >0){
-            setCount(count-1);
-        }
-    }
-    let fondo="backgroundImage: url("+ agent.background +")";
+    
+    
+    
     return (
         
         <div className="col-md-3 mt-2">
