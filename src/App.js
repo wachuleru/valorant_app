@@ -6,15 +6,16 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import HomePage from './pages/Home'
 import CartPage from './pages/Cart'
 import ProductDetailPage from './pages/ProductDetail'
-import { CartContext } from './contexts/cartContext';
 import { useState } from 'react';
+import { CartProvider } from './providers/CartProvider'
 
 function App() {
-  const [Cart,setCart]=useState([]);
+  
+  
   return (
     
     <div className="App">
-      <CartContext.Provider value={Cart}>
+      <CartProvider >
         <BrowserRouter>
           <NavBar className=""></NavBar>
           <Switch>
@@ -32,9 +33,8 @@ function App() {
             </Route>
 
           </Switch>
-          {/* <ItemListContainer/> */}
         </BrowserRouter>
-      </CartContext.Provider>
+      </CartProvider>
     </div>
   );
 }
