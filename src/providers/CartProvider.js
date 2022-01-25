@@ -7,7 +7,10 @@ export function CartProvider({ children }) {
   const contextValue = {
     items: cartItems,
     get length() {
-      return cartItems.reduce((r, item) => r + item.quantity, 0)
+      let tamaño=cartItems.reduce((r, item) => r + item.quantity, 0);
+      console.log(cartItems.length);
+      console.log("tamaño",tamaño);
+      return cartItems.length;/*tamaño;*/
     },
     getItem(cartItemId) {
       return cartItems.find((cartItem) => cartItem.uuid === cartItemId)
@@ -44,7 +47,7 @@ export function CartProvider({ children }) {
           clonedItems.push(newCartItem)
           console.log("no esta");
         } else {
-          clonedItems[itemIndex] = newCartItem
+          clonedItems[itemIndex] = newCartItem;
           console.log("ya existe");
         }
         console.log("provider")
