@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fragment } from 'react/cjs/react.production.min';
+/* import { Fragment } from 'react/cjs/react.production.min'; */
 
 export default function ItemDetail({agent}) {
     console.log(agent);

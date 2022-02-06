@@ -3,11 +3,32 @@ import { useParams } from 'react-router-dom';
 import { ItemList } from './ItemList';
 import Titulo from './Titulo';
 
+import {getFirestore} from '../firebase'
 function ItemListContainer() {
     const [agentes,setAgentes]=useState([]);
     let categoria=""
     const {idCategory} =useParams();
     
+    async function getAllProducts(){
+        const firestore=getFirestore();
+        const snapshot = await firestore.collection('products').get();
+        const products = snapshot.docs.map((doc) => doc.data());
+        console.log("firebase",products);
+        setAgentes(products)
+        return products
+    }
+
+    async function getCategoryProducts(){
+        const firestore=getFirestore();
+        const snapshot = await firestore
+        .collection('products')
+        .where('role.uuid','==',idCategory).get();
+        
+        const products = snapshot.docs.map((doc) => doc.data());
+        console.log("firebase categoria filtrada",products);
+        setAgentes(products)
+        return products
+    }
 
     useEffect(() => {
         if(idCategory){
@@ -36,7 +57,14 @@ function ItemListContainer() {
     //console.log("ke",idCategory);
 
     useEffect(() => {
-        fetch('https://valorant-api.com/v1/agents?language=es-MX').then(response =>{
+
+        if(idCategory){
+            getCategoryProducts();
+        }else{
+            getAllProducts();
+        }
+        
+        /* fetch('https://valorant-api.com/v1/agents?language=es-MX').then(response =>{
            
             return response.json()
         }).then(data =>{
@@ -49,7 +77,8 @@ function ItemListContainer() {
             }
             setAgentes(dataAgents);
 
-        })
+        }) */
+
     }, [idCategory])
     
 
