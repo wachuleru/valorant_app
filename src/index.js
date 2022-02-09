@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import {getFirestore} from './firebase'
+/* import {getFirestore} from './firebase' */
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,7 +13,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-async function getAllProducts(){
+/* async function getAllProducts(){
   const firestore=getFirestore();
   const snapshot = await firestore.collection('products').get();
   const products = snapshot.docs.map((doc) => doc.data());
@@ -21,7 +21,7 @@ async function getAllProducts(){
   return products
 }
 
-getAllProducts();
+getAllProducts(); */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

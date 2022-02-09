@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import ItemDetail from './ItemDetail';
 import {useParams} from 'react-router-dom'
 
-import {getFirestore} from '../firebase'
+import {getProductsById} from '../firebase/index.js'
 export default function ItemDetailContainer() {
 
     const [agent,setAgent]=React.useState([]);
@@ -10,7 +10,7 @@ export default function ItemDetailContainer() {
     console.log("productid",id);
 
     
-    async function getProductsById(id){
+    /* async function getProductsById(id){
         const firestore=getFirestore();
         const doc = await firestore.collection('products').doc(id).get();
 
@@ -22,11 +22,21 @@ export default function ItemDetailContainer() {
         console.log("doc",doc.data());
         setAgent(doc.data())
         return doc
-    }
+    } */
 
 
     useEffect(() => {
-       getProductsById(id)
+        async function fn(){
+            try{
+
+                const product = await getProductsById(id);
+                setAgent(product);
+            }catch(error){
+                console.log("error al obtener agente",error);
+            }
+        }
+        fn();
+       
         /* fetch('https://valorant-api.com/v1/agents/'+id+'?language=es-MX').then(response =>{
            
             return response.json()

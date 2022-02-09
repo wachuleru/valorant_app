@@ -8,16 +8,20 @@ function Item({agent}) {
     return (
         
         <div className="col-md-3 mt-2">
+            
             <div className="card" style={{ backgroundImage: `url(${agent.background})`, backgroundPosition:'center center', backgroundSize: 'cover' }}>
+                
                 <div className='card-header bg-dark text-danger'>
                     {agent.displayName}
                 </div>
+                <p className='text-center' style={{ background: 'rgba(0,0,0,0.7)', color:'white', position:'relative', top:'2px', left:'30px', width:'40%'}}>Precio: $ {agent.precio}</p>
+                <p className='text-center' style={{ background: 'rgba(0,0,0,0.7)', color:'white',position:'relative', top:'-6px', left:'30px', width:'40%'}}>Stock: {agent.stock}</p>
                 <img src={agent.fullPortrait} className="card-img-top" alt="" />
                 
                 <div className="card-body">
                     
                     <Link className="btn btn-primary" to={`/item/${agent.uuid}`}>Mas Detalles</Link>
-                    <ItemCount agente={agent} precio={2000} stock={20}/>
+                    <ItemCount agente={agent} precio={agent.precio} stock={agent.stock}/>
                 </div>
             </div>
 

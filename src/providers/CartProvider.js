@@ -7,10 +7,22 @@ export function CartProvider({ children }) {
   const contextValue = {
     items: cartItems,
     get length() {
-      let tamaño=cartItems.reduce((r, item) => r + item.quantity, 0);
+      let tamano=cartItems.reduce((r, item) => r + item.cantidad, 0);
       console.log(cartItems.length);
-      console.log("tamaño",tamaño);
-      return cartItems.length;/*tamaño;*/
+      console.log("tamaño",tamano);
+      return tamano;/*tamaño;*/
+    },
+    tamano(){
+      let tamano=cartItems.reduce((r, item) => r + item.cantidad, 0);
+      console.log(cartItems.length);
+      console.log("tamaño fn tamano",tamano);
+      return tamano;/*tamaño;*/
+    },
+    total() {
+      return cartItems.reduce(
+        (r, item) => r + item.cantidad * item.precio,
+        0
+      )
     },
     getItem(cartItemId) {
       return cartItems.find((cartItem) => cartItem.uuid === cartItemId)
@@ -31,6 +43,7 @@ export function CartProvider({ children }) {
         return currentItems.filter((cartItem) => cartItem.uuid !== cartItemId)
       })
     },
+    
     addItem(newCartItem) {
       console.log(cartItems);
       console.log("isInCart", this.isInCart(newCartItem));

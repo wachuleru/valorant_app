@@ -3,13 +3,14 @@ import { useParams } from 'react-router-dom';
 import { ItemList } from './ItemList';
 import Titulo from './Titulo';
 
-import {getFirestore} from '../firebase'
+import {getAllProducts,getCategoryProducts} from '../firebase/index'
 function ItemListContainer() {
     const [agentes,setAgentes]=useState([]);
+    const [isLoading,setIsLoading]=useState(true)
     let categoria=""
     const {idCategory} =useParams();
     
-    async function getAllProducts(){
+    /* async function getAllProducts(){
         const firestore=getFirestore();
         const snapshot = await firestore.collection('products').get();
         const products = snapshot.docs.map((doc) => doc.data());
@@ -28,7 +29,7 @@ function ItemListContainer() {
         console.log("firebase categoria filtrada",products);
         setAgentes(products)
         return products
-    }
+    } */
 
     useEffect(() => {
         if(idCategory){
@@ -55,30 +56,28 @@ function ItemListContainer() {
     }, [idCategory])
     console.log(categoria);
     //console.log("ke",idCategory);
+    
 
     useEffect(() => {
-
-        if(idCategory){
-            getCategoryProducts();
-        }else{
-            getAllProducts();
+        async function fn(){
+            setIsLoading(true)
+            try{
+                if(idCategory){
+                    const products= await getCategoryProducts(idCategory);
+                    setAgentes(products );
+                }else{
+                    const prod= await getAllProducts();
+                    setAgentes(prod);
+                }
+            }catch(error){
+                console.log("error al cargar productos",error);
+            } finally{
+                setIsLoading(false)
+            }
         }
         
-        /* fetch('https://valorant-api.com/v1/agents?language=es-MX').then(response =>{
-           
-            return response.json()
-        }).then(data =>{
-            let res= {data};
-            let dataAgents=res.data.data;
-            console.log(dataAgents);
-            dataAgents=dataAgents.filter(agente =>agente.uuid!== 'ded3520f-4264-bfed-162d-b080e2abccf9');
-            if(idCategory){
-                dataAgents=dataAgents.filter(dataAgent => dataAgent.role.uuid===idCategory)
-            }
-            setAgentes(dataAgents);
-
-        }) */
-
+        fn();
+        
     }, [idCategory])
     
 

@@ -4,7 +4,8 @@ import { useCart } from '../hooks/useCart'
 export default function ItemCount({agente, precio, stock}) {
     const cart = useCart()
     const cartItem=cart.getItem(agente.uuid);
-    const [cantidad,setCantidad]=useState(1);
+    const [cantidad,setCantidad]=useState(0);
+    
     
     function onAddToCart() {
         console.log(agente.displayName, cantidad, precio, stock);
@@ -33,6 +34,6 @@ export default function ItemCount({agente, precio, stock}) {
                 <button type="button" className="btn btn-success" onClick={addCantidad}>+</button>
             </div>
             <br></br>
-            <button type="button" className='btn btn-primary' onClick={onAddToCart}>Agregar al Carrito</button>
+            <button type="button" className='btn btn-primary' onClick={onAddToCart} disabled={stock ===0}>Agregar al Carrito</button>
         </div>;
 }
