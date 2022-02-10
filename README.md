@@ -12,7 +12,7 @@
 ## Architecture
 
 ## Structure
-. . .
+...
 VALORANT_APP
 
 ├───node_modules
@@ -27,8 +27,7 @@ VALORANT_APP
     ├───pages
     ├───providers
     └───utils
-. . .
-
+...
 # Running
 ## Requirements
 Node: v12.18.0
