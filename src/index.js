@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {createAgent} from './firebase/index'
 /* import {getFirestore} from './firebase' */
 
 ReactDOM.render(
@@ -12,6 +12,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
 /* async function getAllProducts(){
   const firestore=getFirestore();

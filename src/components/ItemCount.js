@@ -28,12 +28,12 @@ export default function ItemCount({agente, precio, stock}) {
     }
 
   return <div>
-            <div className="btn-group" role="group" aria-label="Basic mixed styles example">
-                <button type="button" className="btn btn-danger" onClick={subCantidad}>-</button>
-                <input type="text" className="btn  btn-disable bg-light" value={cantidad} readOnly/>
-                <button type="button" className="btn btn-success" onClick={addCantidad}>+</button>
+            <div className="btn-group" role="group" style={{maxWidth:"70%"}}>
+                <button type="button" className="btn btn-sm btn-danger" onClick={subCantidad} style={{maxWidth:"20%"}}>-</button>
+                <input type="number" className="btn  btn-sm btn-disable bg-light" value={cantidad} style={{maxWidth:"60%"}} readOnly/>
+                <button type="button" className="btn btn-sm btn-success" onClick={addCantidad} style={{maxWidth:"20%"}}>+</button>
             </div>
             <br></br>
-            <button type="button" className='btn btn-primary' onClick={onAddToCart} disabled={stock ===0}>Agregar al Carrito</button>
+            <button type="button" className='btn btn-primary mt-1' onClick={onAddToCart} disabled={stock ===0}>Agregar al Carrito</button>
         </div>;
 }

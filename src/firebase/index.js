@@ -79,3 +79,16 @@ export async function createOrder(order){
     return document.id
 
 }
+
+export async function createAgent(agent){
+    const db = getFirestore();
+
+    
+
+    const data=agent;
+
+    const document= await db.collection('products').doc(agent.uuid).set(data);
+
+    return document.id
+
+}

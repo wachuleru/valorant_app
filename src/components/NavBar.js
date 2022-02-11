@@ -21,6 +21,7 @@ export  const NavBar = ()=> {
                             <li><Link className="dropdown-item" to="/category/dbe8757e-9e92-4ed4-b39f-9dfc589691d4">Duelista</Link></li>
                             <li><Link className="dropdown-item" to="/category/5fc02f99-4091-4486-a531-98459a3e95e9">Centinela</Link></li>
                             <li><Link className="dropdown-item" to="/category/4ee40330-ecdd-4f2f-98a8-eb1243428373">Controlador</Link></li>
+                            <li><Link className="dropdown-item" to="/">Todos</Link></li>
                         </ul>
                     </li>
                     {/* <li className="nav-item dropdown">

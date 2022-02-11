@@ -1,8 +1,21 @@
 # valorant_app
 
 ## Descripción
-E-commerce basado en el video juego Valorant, en el cual puedes agregar a los agentes a tu carrito y posteriormente generar la orden de compra
+E-commerce basado en el video juego Valorant, en el cual puedes agregar a los agentes a tu carrito y posteriormente generar la orden de compra.
 ## Overviews
+### Agregar a carrito:
+<img src="./img/addCart.gif" style="width:70%">
+
+### Filtrar categorias y ver detalle de producto
+<img src="./img/categories_detail.gif" style="width:70%">
+
+### Ver carrito, eliminar producto del carro y finalizar compra
+<img src="./img/cart.gif" style="width:70%">
+
+### Productos fuera de stock bloqueados
+<img src="./img/outOfStock.gif" style="width:70%">
+
+___
 
 ## Deploy
 **WEB**: 
@@ -43,11 +56,14 @@ VALORANT_APP
 ```bash
 git clone https://github.com/wachuleru/valorant_app.git
 cd valorant_app
+# crear en /src/firebase el archivo conector.js que está en el comentario de la entrega final del proyecto, no se incluye ya que son datos para acceder a firebase y son sensibles
+npm install
 
 ```
+
 ## Development
 
-Para correr el proyecto
+Para correr valorant_app
 
 ```bash
 npm run start

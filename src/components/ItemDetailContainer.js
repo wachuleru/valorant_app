@@ -3,6 +3,7 @@ import ItemDetail from './ItemDetail';
 import {useParams} from 'react-router-dom'
 
 import {getProductsById} from '../firebase/index.js'
+import { Spinner } from './Spinner';
 export default function ItemDetailContainer() {
 
     const [agent,setAgent]=React.useState([]);
@@ -50,7 +51,7 @@ export default function ItemDetailContainer() {
     }, [id])
     return (
         <div className="container">
-            {agent !==[]?<ItemDetail agent={agent}/> :null}
+            {agent !==[]?<ItemDetail agent={agent}/> :<Spinner/>}
         </div>
     )
 }
