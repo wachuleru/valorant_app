@@ -5,6 +5,10 @@ import {getFirestore} from './conector.js'
 function documentToProduct(document){
     return {...document.data()}
 }
+
+function documentToOrder(document){
+    return {...document.data()}
+}
 export async function getAllProducts(){
     const firestore=getFirestore();
     const snapshot = await firestore.collection('products').get();
@@ -78,6 +82,21 @@ export async function createOrder(order){
 
     return document.id
 
+}
+
+export async function getOrderById(id){
+    const firestore=getFirestore();
+    const doc = await firestore.collection('orders').doc(id).get();
+
+    if(!doc.exists){
+        return null;
+    }
+
+    
+    console.log("doc de orders",doc.data());
+    //setAgent(doc.data())
+
+    return documentToOrder(doc)
 }
 
 export async function createAgent(agent){

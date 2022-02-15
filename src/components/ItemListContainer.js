@@ -11,26 +11,6 @@ function ItemListContainer() {
     let categoria=""
     const {idCategory} =useParams();
     
-    /* async function getAllProducts(){
-        const firestore=getFirestore();
-        const snapshot = await firestore.collection('products').get();
-        const products = snapshot.docs.map((doc) => doc.data());
-        console.log("firebase",products);
-        setAgentes(products)
-        return products
-    }
-
-    async function getCategoryProducts(){
-        const firestore=getFirestore();
-        const snapshot = await firestore
-        .collection('products')
-        .where('role.uuid','==',idCategory).get();
-        
-        const products = snapshot.docs.map((doc) => doc.data());
-        console.log("firebase categoria filtrada",products);
-        setAgentes(products)
-        return products
-    } */
 
     useEffect(() => {
         if(idCategory){
@@ -55,8 +35,7 @@ function ItemListContainer() {
             }
         }
     }, [idCategory])
-    console.log(categoria);
-    //console.log("ke",idCategory);
+    
     
 
     useEffect(() => {
@@ -86,8 +65,8 @@ function ItemListContainer() {
     return (
         <div className="container">
             
-            {idCategory? <Titulo texto={`Lista de agentes tipo: ${(idCategory==='1b47567f-8f7b-444b-aae3-b0c634622d10'?'Iniciadores':(idCategory==='dbe8757e-9e92-4ed4-b39f-9dfc589691d4'?'Duelistas': (idCategory==='5fc02f99-4091-4486-a531-98459a3e95e9'?'Centinelas':'Controladores' )) )}`} />:<Titulo texto="Lista de agentes"/>}
-            {agentes!==[] ?<ItemList agents={agentes}/> : <Spinner/>}
+            {idCategory? <Titulo texto={`Lista de agentes tipo: ${(idCategory==='1b47567f-8f7b-444b-aae3-b0c634622d10'?'Iniciadores':(idCategory==='dbe8757e-9e92-4ed4-b39f-9dfc589691d4'?'Duelistas': (idCategory==='5fc02f99-4091-4486-a531-98459a3e95e9'?'Centinelas':(idCategory==='4ee40330-ecdd-4f2f-98a8-eb1243428373'?'Controladores':'Categoria no encontrada' ) )) )}`} />:<Titulo texto="Lista de agentes"/>}
+            {!isLoading ?<ItemList agents={agentes}/> : <Spinner/>}
         </div>
     )
 }

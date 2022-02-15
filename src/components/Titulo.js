@@ -4,7 +4,7 @@ function Titulo(props) {
     return (
         <div>
           
-            <h2>{props.texto}</h2>
+            <h2 className="mt-2 mb-2">{props.texto}</h2>
              
         </div>
     )

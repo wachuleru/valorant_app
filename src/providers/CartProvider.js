@@ -3,7 +3,6 @@ import { CartContext } from '../contexts/cartContext'
 
 export function CartProvider({ children }) {
   const [cartItems, setCartItems] = useState([])
-
   const contextValue = {
     items: cartItems,
     get length() {

@@ -6,9 +6,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import HomePage from './pages/Home'
 import CartPage from './pages/Cart'
 import ProductDetailPage from './pages/ProductDetail'
-import { useState } from 'react';
 import { CartProvider } from './providers/CartProvider'
-
+import Orders from './pages/Orders';
 function App() {
   
   
@@ -30,6 +29,9 @@ function App() {
             </Route>
             <Route  path="/item/:id">
               <ProductDetailPage/>
+            </Route>
+            <Route  path="/order/">
+              <Orders/>
             </Route>
 
           </Switch>

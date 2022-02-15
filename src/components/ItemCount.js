@@ -1,9 +1,9 @@
-import React, { useState,useContext } from 'react';
+import React, { useState } from 'react';
 
 import { useCart } from '../hooks/useCart'
 export default function ItemCount({agente, precio, stock}) {
     const cart = useCart()
-    const cartItem=cart.getItem(agente.uuid);
+    /* const cartItem=cart.getItem(agente.uuid); */
     const [cantidad,setCantidad]=useState(0);
     
     

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { useCart } from '../hooks/useCart';
 import CartItem from "./CartItem";
@@ -13,7 +13,32 @@ export function CartList(){
     const form= useForm();
     console.log("cartlist items", cart.items);
     console.log("cart total", cart.total());
+    const watchFields=form.watch();
+    const [buttonSubmit,setButtonSubmit]=useState(false)
+
+    function revisarCampos(nombre,telefono,correo,correo2){
+        if(nombre==='' || telefono==='' || correo==='' || correo2==='' ){
+            setButtonSubmit(false);
+        }else if(correo===correo2){
+            setButtonSubmit(true);
+        }else{
+            setButtonSubmit(false);
+        }
+    }
+    useEffect(()=>{
+        const subscription = form.watch((value, { name, type }) => {
+            console.log("watch",value, name, type)
+            const valores= { name, type };
+            console.log("valores",valores);
+            console.log("valuie",value);
+            revisarCampos(value.name,value.phone,value.email, value.email2)
+            });
+            
+        console.log("subs",subscription);
+    }
+    )
     async function onSubmit(formValues) {
+        
         try {
           const newOrderData = {
             buyer: formValues,
@@ -34,7 +59,7 @@ export function CartList(){
           console.error(error)
         }
     }
-
+    
     
     return (
         <div className="container">
@@ -69,11 +94,17 @@ export function CartList(){
                 <div className="col-sm-12 col-md-4">
                     <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col space-y-4" >
                     <TextField title="Nombre" inputProps={{ placeholder: 'Juan Perez', required: true, ...form.register('name'), }} />
-                    <TextField title="Correo" inputProps={{ placeholder: 'me@example.com', required: true, ...form.register('email'), }}/>
                     <TextField title="Telefono" inputProps={{ placeholder: '990000123', required: true, ...form.register('phone'), }} />
-                    <Button disabled={cart.length === 0} isLoading={form.formState.isSubmitting}>
+                    <TextField title="Correo" inputProps={{ placeholder: 'me@example.com', required: true, ...form.register('email'), }}/>
+                    <TextField title="Confirmar Correo" inputProps={{ placeholder: 'me@example.com', required: true, ...form.register('email2'), }}/>
+                    <Button disabled={cart.length === 0 || !buttonSubmit } isLoading={form.formState.isSubmitting}>
                         Finalizar compra
                     </Button>
+                    {console.log("formulariuo getFieldState",form.getFieldState())}
+                    {console.log("formulariuo2",form)}
+                    {console.log("formulariuo formState",form.formState)}
+                    {console.log("formulariuo getValues",form.getValues())}
+                    
                 </form>
                 </div>
             </div>
