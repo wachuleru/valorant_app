@@ -1,4 +1,5 @@
 import React from 'react'
+import { Description } from './Description';
 import ItemCount from './ItemCount';
 import { PriceStock } from './PriceStock';
 import { Rol } from './Rol';
@@ -21,8 +22,8 @@ export default function ItemDetail({agent}) {
                             <img src={agent.fullPortrait} className="card-img-top" alt="" />
                         </div>
                         <div className="col-xs-12 col-sm-6">
-                            
-                            <p style={{backgroundColor:'white'}}>{agent.description}</p>
+                            <Description description={agent.description} />
+                        
                             {agent.role !== undefined?<Rol nombre={agent.role.displayName} descripcion={agent.role.description}/>:null}
 
                         </div>
