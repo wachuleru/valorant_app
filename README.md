@@ -28,9 +28,11 @@ E-commerce basado en el video juego Valorant, en el cual puedes agregar a los ag
 
 ## Architecture
 - **React**
-- **Firebase**
-- **Bootstrap**
-
+- **Firebase** : 7.24.0 - Para la conexión con los datos almacenados en firestore
+- **Bootstrap** : 5.0.2 - Framework para usar estilos css y sistema de grilla
+- **FontAwesome** : v5.10.0 - Íconos
+- **react-hook-form** :7.26.1 - Para facilitar el uso de form
+- **react-router-dom** : 5.3.0 - Para el uso de rutas (/cart, /item, etc)
 ## Structure
 
 ```bash
@@ -39,15 +41,15 @@ VALORANT_APP
 ├───node_modules
 │  
 ├───public
-└───src
-├───components
-├───contexts
-├───data
-├───firebase
-├───hooks
-├───pages
-├───providers
-└───utils
+└───src 
+    ├───components
+    ├───contexts
+    ├───data
+    ├───firebase
+    ├───hooks
+    ├───pages
+    ├───providers
+    └───utils
 ```
 
 # Running
