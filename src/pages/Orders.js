@@ -10,7 +10,7 @@ export default function Orders() {
     
     function buscar(){
         setId(document.getElementById('orden').value)
-        console.log("orden:",id);
+        /* console.log("orden:",id); */
     }
 
     useEffect(() => {
@@ -19,7 +19,7 @@ export default function Orders() {
 
                 const order = await getOrderById(id);
                 //setOrden(order)
-                console.log("ordern",order);
+                /* console.log("ordern",order); */
                 setOrden(order);
             }catch(error){
                 console.log("error al obtener orden",error);
@@ -34,12 +34,12 @@ export default function Orders() {
         <React.Fragment>
             <Titulo texto="Buscar Orden" />
             <div className='container mb-3'>
-                <div class="row g-3 d-flex justify-content-center">
+                <div className="row g-3 d-flex justify-content-center">
                     
-                    <div class="col-5">
+                    <div className="col-5">
                         <input  className="form-control" type="text" id="orden" name="orden" placeholder="N° orden "/>
                     </div>
-                    <div class="col-2">
+                    <div className="col-2">
                         <button className="form-control btn btn-primary"  onClick={buscar} >Buscar</button>
                     </div>
                 </div>

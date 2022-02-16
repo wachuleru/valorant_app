@@ -6,7 +6,7 @@ import Titulo from './Titulo'
 /* import { Fragment } from 'react/cjs/react.production.min'; */
 
 export default function ItemDetail({agent}) {
-    console.log(agent);
+    /* console.log(agent); */
     return (
         <div className="row">
             <div className="col-md-2"></div>

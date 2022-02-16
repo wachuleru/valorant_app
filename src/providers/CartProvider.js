@@ -7,14 +7,14 @@ export function CartProvider({ children }) {
     items: cartItems,
     get length() {
       let tamano=cartItems.reduce((r, item) => r + item.cantidad, 0);
-      console.log(cartItems.length);
-      console.log("tamaño",tamano);
+      /* console.log(cartItems.length);
+      console.log("tamaño",tamano); */
       return tamano;/*tamaño;*/
     },
     tamano(){
       let tamano=cartItems.reduce((r, item) => r + item.cantidad, 0);
-      console.log(cartItems.length);
-      console.log("tamaño fn tamano",tamano);
+      /* console.log(cartItems.length);
+      console.log("tamaño fn tamano",tamano); */
       return tamano;/*tamaño;*/
     },
     total() {
@@ -28,10 +28,10 @@ export function CartProvider({ children }) {
     },
     isInCart(cartItemId) {
       let busqueda= cartItems.find((cartItem) =>{ 
-        console.log(cartItem.uuid,' vs ',cartItemId.uuid);
+        /* console.log(cartItem.uuid,' vs ',cartItemId.uuid); */
         return cartItem.uuid === cartItemId.uuid});
-      console.log("busqueda",busqueda);
-      console.log("cartItems",cartItems);
+      /* console.log("busqueda",busqueda);
+      console.log("cartItems",cartItems); */
       return busqueda === undefined?false:true;
     },
     clear() {
@@ -44,26 +44,26 @@ export function CartProvider({ children }) {
     },
     
     addItem(newCartItem) {
-      console.log(cartItems);
-      console.log("isInCart", this.isInCart(newCartItem));
+      /* console.log(cartItems);
+      console.log("isInCart", this.isInCart(newCartItem)); */
       setCartItems((currentItems) => {
         const clonedItems = [...currentItems]
-        console.log("clonados",clonedItems);
+        /* console.log("clonados",clonedItems); */
         const itemIndex = clonedItems.findIndex(
           (cartItem) => {
-            console.log("additem vs ",cartItem.uuid, ' vs ',newCartItem.uuid );
+            /* console.log("additem vs ",cartItem.uuid, ' vs ',newCartItem.uuid ); */
             return cartItem.uuid === newCartItem.uuid}
         )
-        console.log("findIndex", itemIndex);
+        /* console.log("findIndex", itemIndex); */
         if (itemIndex === -1) {
           clonedItems.push(newCartItem)
-          console.log("no esta");
+          /* console.log("no esta"); */
         } else {
           clonedItems[itemIndex] = newCartItem;
-          console.log("ya existe");
+          /* console.log("ya existe"); */
         }
-        console.log("provider")
-        console.log("clonados insertados",clonedItems);
+        /* console.log("provider")
+        console.log("clonados insertados",clonedItems); */
         return clonedItems
       })
     },

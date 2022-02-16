@@ -8,10 +8,10 @@ export default function ItemDetailContainer() {
 
     const [agent,setAgent]=useState(null);
     const {id}=useParams();
-    console.log("productid",id);
+    /* console.log("productid",id); */
 
     
-    console.log("agente actual fb", agent);
+    /* console.log("agente actual fb", agent); */
 
     useEffect(() => {
         async function fn(){
@@ -19,12 +19,12 @@ export default function ItemDetailContainer() {
 
                 const product = await getProductsById(id);
                 setAgent(product);
-                console.log("agente desde firebase",agent);
-                console.log("producto itemdetailconainer",product);
+                /* console.log("agente desde firebase",agent);
+                console.log("producto itemdetailconainer",product); */
             }catch(error){
                 setAgent(null)
-                console.log("agente desde firebase",agent);
-                console.log("error al obtener agente",error);
+                /* console.log("agente desde firebase",agent);
+                console.log("error al obtener agente",error); */
             }
         }
         fn();

@@ -13,7 +13,7 @@ export async function getAllProducts(){
     const firestore=getFirestore();
     const snapshot = await firestore.collection('products').get();
     const products = snapshot.docs.map(documentToProduct);
-    console.log("firebase",products);
+    /* console.log("firebase",products); */
     //setAgentes(products)
     return products
 }
@@ -25,7 +25,7 @@ export async function getCategoryProducts(idCategory){
     .where('role.uuid','==',idCategory).get();
     
     const products = snapshot.docs.map(documentToProduct);
-    console.log("firebase categoria filtrada",products);
+    /* console.log("firebase categoria filtrada",products); */
     //setAgentes(products)
     return products
 }
@@ -39,7 +39,7 @@ export async function getProductsById(id){
     }
 
     
-    console.log("doc",doc.data());
+    /* console.log("doc",doc.data()); */
     //setAgent(doc.data())
     return documentToProduct(doc)
 }
@@ -93,7 +93,7 @@ export async function getOrderById(id){
     }
 
     
-    console.log("doc de orders",doc.data());
+    /* console.log("doc de orders",doc.data()); */
     //setAgent(doc.data())
 
     return documentToOrder(doc)

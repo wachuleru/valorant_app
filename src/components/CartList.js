@@ -11,8 +11,6 @@ import { Button } from '../components/Button'
 export function CartList(){
     const cart=useCart()
     const form= useForm();
-    console.log("cartlist items", cart.items);
-    console.log("cart total", cart.total());
     const watchFields=form.watch();
     const [buttonSubmit,setButtonSubmit]=useState(false)
 
@@ -28,9 +26,7 @@ export function CartList(){
     useEffect(()=>{
         const subscription = form.watch((value, { name, type }) => {
             console.log("watch",value, name, type)
-            const valores= { name, type };
-            console.log("valores",valores);
-            console.log("valuie",value);
+            
             revisarCampos(value.name,value.phone,value.email, value.email2)
             });
             
@@ -77,7 +73,7 @@ export function CartList(){
                             </thead>
                         <tbody>
                         {cart.items.map(item =>{
-                            console.log(item.displayName)
+                            
                             return <CartItem key={item.uuid} item={item}/>
                         })}
                             <tr>
@@ -100,10 +96,7 @@ export function CartList(){
                     <Button disabled={cart.length === 0 || !buttonSubmit } isLoading={form.formState.isSubmitting}>
                         Finalizar compra
                     </Button>
-                    {console.log("formulariuo getFieldState",form.getFieldState())}
-                    {console.log("formulariuo2",form)}
-                    {console.log("formulariuo formState",form.formState)}
-                    {console.log("formulariuo getValues",form.getValues())}
+                    
                     
                 </form>
                 </div>

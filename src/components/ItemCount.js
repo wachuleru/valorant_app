@@ -8,23 +8,23 @@ export default function ItemCount({agente, precio, stock}) {
     
     
     function onAddToCart() {
-        console.log(agente.displayName, cantidad, precio, stock);
+        /* console.log(agente.displayName, cantidad, precio, stock); */
         cart.addItem({ ...agente,precio, cantidad })
-        console.log("items",cart.items);
+        /* console.log("items",cart.items); */
     }
     
     function addCantidad(){
         if(cantidad <stock){
             setCantidad(cantidad + 1);
         }
-        console.log(cantidad);
+        /* console.log(cantidad); */
     }
 
     function subCantidad(){
         if(cantidad >0){
             setCantidad(cantidad -1);
         }
-        console.log(cantidad);
+        /* console.log(cantidad); */
     }
 
   return <div>

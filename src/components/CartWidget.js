@@ -5,7 +5,7 @@ export default function CartWidget() {
     const cart = useCart();
     const cantidad= cart.tamano();
     
-    console.log("tamaño cantidad",cantidad);
+    
     /* const items=cart.items; */
     return (
         <div className="text-white">

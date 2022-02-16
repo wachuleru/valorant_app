@@ -14,7 +14,7 @@ function ItemListContainer() {
 
     useEffect(() => {
         if(idCategory){
-            console.log("categoria",idCategory);
+            /* console.log("categoria",idCategory); */
             switch (idCategory) {
                 case '1b47567f-8f7b-444b-aae3-b0c634622d10':
                     categoria= 'Iniciador';
