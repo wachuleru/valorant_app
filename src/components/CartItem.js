@@ -6,9 +6,9 @@ export default function CartItem(props) {
     function deleteItem(){
         cart.removeItem(props.item.uuid);
     }
-    console.log("delete",props.delete);
+    
     const eliminar =props.delete===undefined?true:props.delete;
-    console.log("eliminar",eliminar);
+   
 
   return <React.Fragment >
       <tr>

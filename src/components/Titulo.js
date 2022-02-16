@@ -13,17 +13,4 @@ function Titulo(props) {
 export default Titulo
 
 
-/* export default class Titulo extends React.Component {
-    constructor (props){
-        super(props)
-        
-    }
 
-    render() {
-        
-        return (
-            
-        )
-    }
-}
- */

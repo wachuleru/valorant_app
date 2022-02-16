@@ -3,19 +3,25 @@
 ## Descripción
 E-commerce basado en el video juego Valorant, en el cual puedes agregar a los agentes a tu carrito y posteriormente generar la orden de compra.
 ## Overviews
-### Agregar a carrito:
+### Agregar a carrito, filtrar por categorías y ver el detalle del producto:
 <img src="./img/addCart.gif" style="width:70%">
-
+<!-- 
 ### Filtrar categorias y ver detalle de producto
-<img src="./img/categories_detail.gif" style="width:70%">
+<img src="./img/categories_detail.gif" style="width:70%"> -->
 
-### Ver carrito, eliminar producto del carro y finalizar compra
+### Ver carrito, eliminar producto del carro, validación de datos requeridos para finalizar compra con habilitación de boton Finalizar Compra
 <img src="./img/cart.gif" style="width:70%">
 
 ### Productos fuera de stock bloqueados
 <img src="./img/outOfStock.gif" style="width:70%">
 
-___
+### Producto no encontrado (no existe)
+<img src="./img/notFound.gif" style="width:70%">
+
+### Buscar orden
+<img src="./img/searchOrder.gif" style="width:70%">
+
+----
 
 ## Deploy
 **WEB**: 
